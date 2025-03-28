@@ -6,7 +6,7 @@ import (
 	"unicode"
 )
 
-func toMillis(time string) (int, error) {
+func ToMillis(time string) (int, error) {
 	if len(time) < 2 {
 		return 0, errors.New("invalid time string")
 	}
